@@ -3,7 +3,7 @@ from datetime import datetime
 
 def load_project_data(file_path):
     
-    df = pd.read_csv(file_path, parse_data=['start_date', 'end_date'])
+    df = pd.read_csv(file_path, parse_dates=['start_date', 'end_date'])
 
     #data validation
     assert not df.empty
@@ -12,4 +12,9 @@ def load_project_data(file_path):
     return df
 
 def validate_data(df):
-    assert all((df['completion_pct']))
+    assert all((df['completion_pct'] >= 0) & (df['completion_pct'] <= 100))
+    assert all(df['start_date'] <= df['end_date'])
+    assert all(df['planned_cost'] >= 0)
+    assert all(df['actual_cost'] >= 0)
+
+    return True
