@@ -58,6 +58,12 @@
     <Compile Include="t10.Designer.cs">
       <DependentUpon>t10.cs</DependentUpon>
     </Compile>
+    <Compile Include="t11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t11.Designer.cs">
+      <DependentUpon>t11.cs</DependentUpon>
+    </Compile>
     <Compile Include="t12.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,42 @@
     </Compile>
     <Compile Include="t13.Designer.cs">
       <DependentUpon>t13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t14.Designer.cs">
+      <DependentUpon>t14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t15.Designer.cs">
+      <DependentUpon>t15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t16.Designer.cs">
+      <DependentUpon>t16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t17.Designer.cs">
+      <DependentUpon>t17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t18.Designer.cs">
+      <DependentUpon>t18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t19.Designer.cs">
+      <DependentUpon>t19.cs</DependentUpon>
     </Compile>
     <Compile Include="t2.cs">
       <SubType>Form</SubType>
@@ -90,11 +132,29 @@
     <Compile Include="t21.Designer.cs">
       <DependentUpon>t21.cs</DependentUpon>
     </Compile>
+    <Compile Include="t22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t22.Designer.cs">
+      <DependentUpon>t22.cs</DependentUpon>
+    </Compile>
     <Compile Include="t23.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="t23.Designer.cs">
       <DependentUpon>t23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t24.Designer.cs">
+      <DependentUpon>t24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t25.Designer.cs">
+      <DependentUpon>t25.cs</DependentUpon>
     </Compile>
     <Compile Include="t26.cs">
       <SubType>Form</SubType>
@@ -102,17 +162,47 @@
     <Compile Include="t26.Designer.cs">
       <DependentUpon>t26.cs</DependentUpon>
     </Compile>
+    <Compile Include="t27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t27.Designer.cs">
+      <DependentUpon>t27.cs</DependentUpon>
+    </Compile>
     <Compile Include="t3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="t3.Designer.cs">
       <DependentUpon>t3.cs</DependentUpon>
     </Compile>
+    <Compile Include="t4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t4.Designer.cs">
+      <DependentUpon>t4.cs</DependentUpon>
+    </Compile>
     <Compile Include="t6.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="t6.Designer.cs">
       <DependentUpon>t6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t5.Designer.cs">
+      <DependentUpon>t5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t7.Designer.cs">
+      <DependentUpon>t7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t8.Designer.cs">
+      <DependentUpon>t8.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="t1.resx">
       <DependentUpon>t1.cs</DependentUpon>
@@ -129,11 +219,32 @@
     <EmbeddedResource Include="t10.resx">
       <DependentUpon>t10.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="t11.resx">
+      <DependentUpon>t11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="t12.resx">
       <DependentUpon>t12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="t13.resx">
       <DependentUpon>t13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t14.resx">
+      <DependentUpon>t14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t15.resx">
+      <DependentUpon>t15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t16.resx">
+      <DependentUpon>t16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t17.resx">
+      <DependentUpon>t17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t18.resx">
+      <DependentUpon>t18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t19.resx">
+      <DependentUpon>t19.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="t2.resx">
       <DependentUpon>t2.cs</DependentUpon>
@@ -144,17 +255,41 @@
     <EmbeddedResource Include="t21.resx">
       <DependentUpon>t21.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="t22.resx">
+      <DependentUpon>t22.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="t23.resx">
       <DependentUpon>t23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t24.resx">
+      <DependentUpon>t24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t25.resx">
+      <DependentUpon>t25.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="t26.resx">
       <DependentUpon>t26.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="t27.resx">
+      <DependentUpon>t27.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="t3.resx">
       <DependentUpon>t3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="t4.resx">
+      <DependentUpon>t4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t5.resx">
+      <DependentUpon>t5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="t6.resx">
       <DependentUpon>t6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t7.resx">
+      <DependentUpon>t7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t8.resx">
+      <DependentUpon>t8.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
