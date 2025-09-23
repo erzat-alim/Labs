@@ -27,6 +27,9 @@ except:
 eps = 1e-10
 
 if (abs(a) < eps):
+    a = b
+    b = c
+    c = d
     D = b**2 - 4*a*c
     result = ''
 
