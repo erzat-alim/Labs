@@ -16,8 +16,7 @@ namespace Alimbekov_Erzat_dkip481
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new t27
-                ());
+            Application.Run(new t2());
         }
     }
 }
