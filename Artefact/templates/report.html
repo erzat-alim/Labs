@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVM Dashboard - {{project_name}}</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container{
+            max-width: 1200px;
+            margin-left: 0;
+            margin-right: 0;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+        .header{
+            text-align: center;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .metrics-grid{
+            display: grid;
+            grid-template-columns: repaet(auto-fir, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .metrics-card{
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498bd;
+        }
+        .metrics-card.good{border-left-color: #27ae60;}
+        .metrics-card.bad{border-left-color: #e74c3c;}
+        .metrics-card.warning{border-left-color: #f39c12;}
+        .metrics-value{
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0
+        }
+        .chart-container{
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .chart{text-align: center;}
+        .chart img{
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .status-alert{
+            background: #d4edda;
+            border: 1px solid #ffeaa7;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .summary{
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .th{
+            background-color: #34495e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 EVM Dashboard</h1>
+            <h2>{{project_name}}</h2>
+            <p><strong>Дата отчета:</strong> {{report_date}}</p>
+        </div>
+
+        <div class="status_alert">
+            <h3>📈 Статус проекта</h3>
+            <ul>
+                {%for status in performance_status%}
+                <li>{{status}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metrics-card {% if metrics.CPI >= 1 %}good{% else %}bad{% endif %}">
+                <h3>Cost Performance Index</h3>
+                <div class="metrics-value">{{"%.2f"|format(metrics.CPI)}}</div>
+                <p>Эффективность соблюдения графика</p>
+            </div>
+
+            <div class="metrics-card {% if metrics.SPI >= 1 %}good{% else %}bad{% endif %}">
+                <h3>Schedule Performance Index</h3>
+                <div class="metrics-value">{{"%.2f"|format(metrics.SPI)}}</div>
+                <p>Эффективность соблюдения графика</p>
+            </div>
+
+            <div class="metrics-card {% if metrics.CV >= 0 %}good{% else %}bad{% endif %}">
+                <h3>Cost variance</h3>
+                <div class="metrics-value">{{"%.2f"|format(metrics.CV)}}</div>
+                <p>Отклонение от стоимости</p>
+            </div>
+
+            <div class="metrics-card {% if metrics.SV >=1 %}good{% else %}bad{% endif %}">
+                <h3>Schedule variance</h3>
+                <div class="metrics-value">{{"%.2f"|format(metrics.SV)}}</div>
+                <p>Отклонение по графику</p>
+            </div>
+        </div>
+
+        <div class="charts-container">
+            <div class="chart">
+                <h3>Основные метрики</h3>
+                <img src="data:image/png;base64, {{ charts.tasks_chart }}" alt="EVM Metrics">
+            </div>
+            <div class="chart">
+                <h3>Основные метрики</h3>
+                <img src="data:image/png;base64, {{ charts.tasks_chart }}" alt="Tasks Status">
+            </div>
+        </div>
+
+        <div class="summary">
+            <h3>Сводка проекта</h3>
+            <p><strong>Всего зада:</strong> {{task_count}}</p>
+            <p><strong>Завершенных задач</strong> {{completed_tasks}} ({{"%.1f:"|format(completed_tasks/tasks_count*100)}}%)</p>
+            <p><strong>Общий бюджет (BAC):</strong> {{"%.2f"|format(total_budget)}}</p>
+            <p><strong>Прогнозируемая стоимость (EAC):</strong> {{"%.2f"|format(metrics.EAC)}}</p>
+        </div>
+        
+        <h3>📊 Детальные метрики</h3>
+        <table>
+            <tr>
+                <th>Метрика</th>
+                <th>Значение</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>Planned Value (PV)</td>
+                <td>${{ "%.2f"|format(metrics.PV) }}</td>
+                <td>Плановая стоимость выполненных работ</td>
+            </tr>
+            <tr>
+                <td>Earned Value (EV)</td>
+                <td>${{ "%.2f"|format(metrics.EV) }}</td>
+                <td>Фактическая стоимость выполненных работ</td>
+            </tr>
+            <tr>
+                <td>Actual Value (PV)</td>
+                <td>${{ "%.2f"|format(metrics.AC) }}</td>
+                <td>Фактические затраты</td>
+            </tr>
+            <tr>
+                <td>Budget at Completion (BAC)</td>
+                <td>${{ "%.2f"|format(metrics.BAC) }}</td>
+                <td>Общий бюджет проекта</td>
+            </tr>
+            <tr>
+                <td>Estimate at Completion (EAC)</td>
+                <td>${{ "%.2f"|format(metrics.EAC) }}</td>
+                <td>Прогнозируемая итоговая стоимость</td>
+            </tr>
+            <tr>
+                <td>Variance at Completion (VAC)</td>
+                <td>${{ "%.2f"|format(metrics.VAC) }}</td>
+                <td>Отклонение итоговой стоимости</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
