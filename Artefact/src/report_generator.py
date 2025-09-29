@@ -59,7 +59,7 @@ def generate_evm_charts(metrics, df, report_date):
     plt.close()
 
     # 2. task completion graph
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 10))
     df_sorted = df.sort_values('completion_pct', ascending=False)
     bars = ax.barh(df_sorted['task_id'].astype(str), df_sorted['completion_pct'],
                    color=['green' if x == 100 else 'orange' for x in df_sorted['completion_pct']])
