@@ -26,7 +26,12 @@ except:
 
 eps = 1e-10
 
-л
+if (abs(a) < eps):
+    a = b
+    b = c
+    c = d
+    D = b**2 - 4*a*c
+    result = ''
 
     if (a==0 and b==0 and c==0):
         result = ['infinitely many solutions']
@@ -87,5 +92,3 @@ else:
 
     roots = [clean_complex(x1), clean_complex(x2), clean_complex(x3)]
     print_roots(set(roots))
-
-
