@@ -1,6 +1,6 @@
 ﻿namespace Alimbekov_Erzat_dkip481
 {
-    partial class t15
+    partial class Form15
     {
         /// <summary>
         /// Required designer variable.

@@ -1,0 +1,11 @@
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.csproj.AssemblyReference.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.Form1.resources
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.Properties.Resources.resources
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.csproj.GenerateResource.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.csproj.CoreCompileInputs.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\bin\Debug\Alimbekov_Erzat_dkip481_2.exe.config
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\bin\Debug\Alimbekov_Erzat_dkip481_2.exe
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\bin\Debug\Alimbekov_Erzat_dkip481_2.pdb
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.exe
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.pdb
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_Erzat_dkip481_2\obj\Debug\Alimbekov_Erzat_dkip481_2.exe.config

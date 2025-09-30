@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\",
+  "WorkspaceRootPath": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AB1EF7A-9F9A-48A9-AA7D-5748AC351B70}|Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481.csproj|C:\\Users\\Admin\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AB1EF7A-9F9A-48A9-AA7D-5748AC351B70}|Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481.csproj|solutionrelative:Alimbekov_Erzat_dkip481\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AB1EF7A-9F9A-48A9-AA7D-5748AC351B70}|Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481.csproj|c:\\users\\erzat\\desktop\\labs\\rkis\\alimbekov_erzat_dkip481\\alimbekov_erzat_dkip481\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AB1EF7A-9F9A-48A9-AA7D-5748AC351B70}|Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481.csproj|solutionrelative:alimbekov_erzat_dkip481\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481\\Program.cs",
               "RelativeDocumentMoniker": "Alimbekov_Erzat_dkip481\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481\\Program.cs",
+              "ToolTip": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481\\Alimbekov_Erzat_dkip481\\Program.cs",
               "RelativeToolTip": "Alimbekov_Erzat_dkip481\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-16T05:44:08.088Z",
               "IsPinned": true,
