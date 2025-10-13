@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|c:\\users\\erzat\\desktop\\labs\\rkis\\alimbekov_erzat_dkip481_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|c:\\users\\erzat\\desktop\\labs\\rkis\\alimbekov_erzat_dkip481_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|c:\\users\\erzat\\desktop\\labs\\rkis\\alimbekov_erzat_dkip481_2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|c:\\users\\erzat\\desktop\\labs\\rkis\\alimbekov_erzat_dkip481_2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22563585-19EF-44F2-B7B0-261877889B9E}|Alimbekov_Erzat_dkip481_2.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +30,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:11:19.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwNIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:06:52.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T20:06:32.752Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,7 +78,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\erzat\\Desktop\\Labs\\rkis\\Alimbekov_Erzat_dkip481_2\\Form1.cs*",
               "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAgwAcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T05:45:34.449Z",
               "EditorCaption": ""
