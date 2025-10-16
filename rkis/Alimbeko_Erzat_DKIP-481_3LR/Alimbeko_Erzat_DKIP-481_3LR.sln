@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alimbeko_Erzat_DKIP-481_3LR", "Alimbeko_Erzat_DKIP-481_3LR.csproj", "{C91A065F-68BD-4E8C-A8FF-490B957345F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91A065F-68BD-4E8C-A8FF-490B957345F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91A065F-68BD-4E8C-A8FF-490B957345F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91A065F-68BD-4E8C-A8FF-490B957345F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91A065F-68BD-4E8C-A8FF-490B957345F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF7AE342-56A7-4164-995B-EC1652B1E781}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\bin\Debug\Alimbeko_Erzat_DKIP-481_3LR.exe.config
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\bin\Debug\Alimbeko_Erzat_DKIP-481_3LR.exe
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\bin\Debug\Alimbeko_Erzat_DKIP-481_3LR.pdb
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP-481_3LR.csproj.AssemblyReference.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP_481_3LR.Alimbekov.resources
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP_481_3LR.Properties.Resources.resources
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP-481_3LR.csproj.GenerateResource.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP-481_3LR.csproj.CoreCompileInputs.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP-481_3LR.exe
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP-481_3LR.pdb
+C:\Users\erzat\Desktop\Labs\rkis\Alimbeko_Erzat_DKIP-481_3LR\obj\Debug\Alimbeko_Erzat_DKIP-481_3LR.exe.config
