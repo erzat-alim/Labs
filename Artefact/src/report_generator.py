@@ -17,7 +17,8 @@ def create_evm_report(metrics, df, report_date, output_path='evm_report.html'):
         'charts': charts,
         'tasks_count': len(df),
         'completed_tasks': len(df[df['completion_pct'] == 100]),
-        'total_budget': metrics['BAC']
+        'total_budget': metrics['BAC'],
+        'performance_status': get_performance_status(metrics)  # ДОБАВЛЕНО
     }
     #render html
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,8 +36,8 @@ def create_evm_report(metrics, df, report_date, output_path='evm_report.html'):
 def generate_evm_charts(metrics, df, report_date):
     charts = {}
 
-    # 1. PV/EV/AC graphs
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    # 1. PV/EV/AC graphs - УМЕНЬШЕН РАЗМЕР
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))  # было (12, 5)
 
     # main metrics
     ax1.bar(['PV', 'EV', 'AC'], [metrics['PV'], metrics['EV'], metrics['AC']],
@@ -58,20 +59,45 @@ def generate_evm_charts(metrics, df, report_date):
     charts['metrics_chart'] = plot_to_base64(fig)
     plt.close()
 
-    # 2. task completion graph
-    fig, ax = plt.subplots(figsize=(10, 10))
+    # 2. task completion graph - ИСПРАВЛЕН РАЗМЕР И ПОДПИСИ
+    fig, ax = plt.subplots(figsize=(8, 6))  # было (10, 10) - слишком большой
+    
+    # Сортируем и ограничиваем количество задач для отображения
     df_sorted = df.sort_values('completion_pct', ascending=False)
-    bars = ax.barh(df_sorted['task_id'].astype(str), df_sorted['completion_pct'],
-                   color=['green' if x == 100 else 'orange' for x in df_sorted['completion_pct']])
+    
+    # Если задач слишком много, показываем только топ-15
+    if len(df_sorted) > 15:
+        df_display = df_sorted.head(15)
+        ax.set_title(f'Статус выполнения задач (топ-15 из {len(df)})')
+    else:
+        df_display = df_sorted
+        ax.set_title('Статус выполнения задач')
+    
+    bars = ax.barh(df_display['task_id'].astype(str), df_display['completion_pct'],
+                   color=['green' if x == 100 else 'orange' for x in df_display['completion_pct']])
     ax.set_xlabel('Процент выполнения (%)')
-    ax.set_title('Статус выполнения заказа')
     ax.grid(True, alpha=0.3)
 
-    # add values on columns
+    # УМЕНЬШЕН РАЗМЕР ШРИФТА И ДОБАВЛЕНА ПРОВЕРКА ГРАНИЦ
     for bar in bars:
         width = bar.get_width()
-        ax.text(width + 1, bar.get_y() + bar.get_height()/2, f"{width:.1f}",
-                ha='left', va='center')
+        # Проверяем, чтобы текст не вылезал за границы
+        x_pos = width + 0.5  # уменьшил отступ
+        max_width = ax.get_xlim()[1]  # максимальная ширина графика
+        
+        # Если текст вылезает, помещаем его внутри столбца
+        if x_pos > max_width * 0.95:
+            x_pos = width - 2  # помещаем внутрь столбца
+            color = 'white'    # белый текст для контраста
+        else:
+            color = 'black'    # черный текст по умолчанию
+            
+        ax.text(x_pos, bar.get_y() + bar.get_height()/2, f"{width:.0f}%",
+                ha='left', va='center', fontsize=8, color=color)  # уменьшил шрифт
+    
+    # Устанавливаем границы графика с запасом
+    ax.set_xlim(0, max(df_display['completion_pct']) * 1.15)  # +15% запаса
+    
     plt.tight_layout()
     charts['tasks_chart'] = plot_to_base64(fig)
     plt.close()
