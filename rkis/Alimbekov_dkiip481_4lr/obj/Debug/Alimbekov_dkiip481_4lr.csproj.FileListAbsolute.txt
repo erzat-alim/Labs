@@ -1,0 +1,15 @@
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\bin\Debug\Alimbekov_dkiip481_4lr.exe.config
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\bin\Debug\Alimbekov_dkiip481_4lr.exe
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\bin\Debug\Alimbekov_dkiip481_4lr.pdb
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\bin\Debug\System.Data.SQLite.dll
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.csproj.AssemblyReference.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.Properties.Resources.resources
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.csproj.GenerateResource.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.csproj.CoreCompileInputs.cache
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbeko.C1D9F77E.Up2Date
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.exe
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.pdb
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.exe.config
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\bin\Debug\System.Data.SQLite.xml
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.Form1.resources
+C:\Users\erzat\Desktop\Labs\rkis\Alimbekov_dkiip481_4lr\obj\Debug\Alimbekov_dkiip481_4lr.MainForm.resources
