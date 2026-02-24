@@ -1,0 +1,115 @@
+﻿<Window x:Class="Alimbekov_DKIP481_2_LR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Alimbekov_DKIP481_2_LR"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <WrapPanel Orientation="Horizontal" xml:space="preserve">
+                    <Button BorderBrush="Transparent">File</Button>
+                    <Button BorderBrush="Transparent">Edit</Button>
+                    <Button BorderBrush="Transparent">View</Button>
+                    <Button BorderBrush="Transparent">Project</Button>
+                    <Button BorderBrush="Transparent">Build</Button>
+                    <Button BorderBrush="Transparent">Data</Button>
+                    <Button BorderBrush="Transparent">Tools</Button>
+                    <Button BorderBrush="Transparent">Window</Button>
+                    <Button BorderBrush="Transparent">Community</Button>
+                    <Button BorderBrush="Transparent">Help</Button>
+                </WrapPanel>
+            </Menu>
+            <StackPanel x:Name="ButtonBar" Orientation="Horizontal" DockPanel.Dock="Right">
+                <StackPanel.LayoutTransform>
+                    <RotateTransform Angle="90"/>
+                </StackPanel.LayoutTransform>
+                <Button x:Name="panel1Button" MouseEnter="panel1Button_MouseEnter">
+                    Toolbox
+                </Button>
+                <Button x:Name="panel2Button" MouseEnter="panel2Button_MouseEnter">
+                    Solution Explorer
+                </Button>
+            </StackPanel>
+            <Grid Name="parentGrid" Grid.IsSharedSizeScope="True">
+                <Grid x:Name="layer0" MouseEnter="layer0_MouseEnter">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                           Background="Blue" Foreground="White"
+                           HorizontalAlignment="Stretch"
+                           HorizontalContentAlignment="Center">
+                        Starter Page
+                    </Label>
+
+                    <GroupBox Grid.Row="1" Grid.Column="0" Header="Recent Projects">
+                        
+                    </GroupBox>
+                    <GroupBox Grid.Row="2" Grid.Column="0" Header="Getting Started">
+                        
+                    </GroupBox>
+                    <GroupBox Grid.Row="3" Grid.Column="0" Header="Headliners">
+                        
+                    </GroupBox>
+                    <GroupBox Grid.RowSpan="3" Grid.Row="1" Grid.Column="1" Header="Online Articles">
+                        <ListBox>
+                            <ListBoxItem>Article #1</ListBoxItem>
+                            <ListBoxItem>Article #2</ListBoxItem>
+                            <ListBoxItem>Article #3</ListBoxItem>
+                            <ListBoxItem>Article #4</ListBoxItem>
+                        </ListBox>
+                    </GroupBox>
+                </Grid>
+
+                <Grid x:Name="layer1" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition SharedSizeGroup="column1" Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="1" MouseEnter="panel1_MouseEnter"
+                          Background="{DynamicResource {x:Static
+                        SystemColors.ActiveCaptionTextBrushKey}}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <DockPanel Grid.Row="0">
+                            <Button Name="panel1Pin" Width="26" DockPanel.Dock="Right"
+                                    Click="panel1Pin_Click" Background="White">
+                                <Image Name="panel1PinImage"/>
+                            </Button>
+                            
+                        </DockPanel>
+                    </Grid>
+                    <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Left"/>
+                </Grid>
+                
+                <Grid x:Name="layer2" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition SharedSizeGroup="column1" Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="1" MouseEnter="panel1_MouseEnter"
+                        Background="{DynamicResource {x:Static
+                        SystemColors.ActiveCaptionTextBrushKey}}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                    <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Left"/>
+                </Grid>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>
