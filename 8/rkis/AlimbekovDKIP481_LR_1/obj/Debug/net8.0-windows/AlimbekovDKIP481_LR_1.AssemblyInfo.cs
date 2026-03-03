@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlimbekovDKIP481_LR_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c00b86424bb1368e6cac5e6d1f1d5d709d6f8b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f5f8a3e802238c140ec05aaa93aaf0ad07dbd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlimbekovDKIP481_LR_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlimbekovDKIP481_LR_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
