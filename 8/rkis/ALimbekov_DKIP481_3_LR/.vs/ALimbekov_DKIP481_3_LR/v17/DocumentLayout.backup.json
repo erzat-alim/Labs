@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edu-msk22-819t\\Desktop\\Labs\\8\\rkis\\ALimbekov_DKIP481_3_LR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{840E8507-D7B7-41E6-8E8D-75F566A46514}|ALimbekov_DKIP481_3_LR.csproj|c:\\users\\edu-msk22-819t\\desktop\\labs\\8\\rkis\\alimbekov_dkip481_3_lr\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E8507-D7B7-41E6-8E8D-75F566A46514}|ALimbekov_DKIP481_3_LR.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E8507-D7B7-41E6-8E8D-75F566A46514}|ALimbekov_DKIP481_3_LR.csproj|c:\\users\\edu-msk22-819t\\desktop\\labs\\8\\rkis\\alimbekov_dkip481_3_lr\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{840E8507-D7B7-41E6-8E8D-75F566A46514}|ALimbekov_DKIP481_3_LR.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 226,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\edu-msk22-819t\\Desktop\\Labs\\8\\rkis\\ALimbekov_DKIP481_3_LR\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\edu-msk22-819t\\Desktop\\Labs\\8\\rkis\\ALimbekov_DKIP481_3_LR\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-03T11:12:19.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\edu-msk22-819t\\Desktop\\Labs\\8\\rkis\\ALimbekov_DKIP481_3_LR\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\edu-msk22-819t\\Desktop\\Labs\\8\\rkis\\ALimbekov_DKIP481_3_LR\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T11:12:18.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
